@@ -69,7 +69,7 @@ header {
 }
 /* Slider */
 .slider {
-    background-image: url('/img/Rectangle 1.jpg');
+    background-image: url('../img/Rectangle 1.jpg');
     height: 600px;
 }
 .slider__headline,.slider__text {
