@@ -3,8 +3,8 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 *::after, 
 *::before {
@@ -68,14 +68,217 @@ header {
     border-top: 1px solid #4ec6ab;
 }
 /* Slider */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .slider {
     background-image: url('../img/Rectangle 1.jpg');
+    background-position: center;
     height: 600px;
+   
 }
 .slider__headline,.slider__text {
+    margin: 0;
+    padding: 0;
     text-transform: uppercase;
     color:#ffffff;
 }
 .slider__headline {
     text-align: center;
+    font-size: 60px;
+    line-height: 82px;
+    padding-top: 206px;
+}
+.slider__text{
+    font-size: 24px;
+    line-height: 54px;
+    padding-left: 175px;
+}
+.slider div {
+    height: 100%;
+}
+.container__slider{
+    position: relative;
+    height: 100%;
+}
+.btn {
+    border:none;
+    cursor: pointer;
+    width: 104px;
+    height: 104px;
+    background-color: #55a290;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  
+}
+.btn img {
+    display: inline-block;
+}
+
+.prev {
+    left: 0;
+    
+}
+.next {
+    right: 0;
+}
+/* HEdaline__second */
+.section__second {
+    width: 100%;
+    background-color: #e9f0fd;
+}
+.headline__second {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    line-height: 32px;
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 92px;
+    margin-bottom: 82px;
+}
+.headline__second::after {
+    display: block;
+    width: 164px;
+    height: 7px;
+    content: "";
+    background-color:#1abc9c;
+    margin: 26px auto;
+}
+.foto{
+    font-size: 0;
+    padding-bottom: 98px;
+
+}
+.foto__item{
+    float:left;
+    margin-right: 30px;
+    position: relative;
+}
+.foto__item:nth-child(4n){
+    margin-right: 0;
+}
+.describe,.describe__price {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #323232;
+    font-size: 18px;
+    line-height: 32px;
+    display: inline-block;
+    color: #ffffff;
+}
+.describe{
+    width: 188px;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 13px;     
+}
+.describe__price{
+    width: 44px;
+    height: 35px;
+    background-color: #8c8c8c;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.item-icons {
+    margin: 0;
+    padding: 0;
+    width: 236px;
+    height: 302px;
+    background-color: rgba(99, 96, 98,0.7);
+    border: 10px solid #ffffff;
+    opacity: 0;
+}
+.foto__item:hover > p {
+    background: #4ec6ab;
+}
+ .foto__item:hover > .describe__price {
+    background-color: #7fd9c7;
+}
+/* HOVER IMAGE */
+.item-icons {
+    position:absolute;
+    top: 0;
+}
+.icons {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+}
+.icons__btn1, .icons__btn2, .icons__btn3 {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin-bottom: 9px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+.icons__btn1 {
+    background-image: url(../img/heart.png);
+}
+.icons__btn2 {
+    background-image: url(../img/vector.png);
+    margin: 0 9px 0;
+}
+.icons__btn3 {
+    background-image: url(../img/clock.png);
+}
+
+.icons__lg{
+    width: 168px;
+    height: 50px;
+    background-color: #323232;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 50px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase; 
+    background-image: url("../img/add.png"); 
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    padding: 0;   
+    padding-left: 60px;  
+}
+.icons__btn1:hover, .icons__btn2:hover, 
+.icons__btn3:hover, .icons__lg:hover {
+    background-color: #1abc9c;
+    cursor: pointer;
+    border:none
+} 
+}
+button {
+    padding: 0;
+    outline: none;
+}
+.item-icons:hover {
+    opacity: 0.9;
+    cursor: pointer;
+} 
+
+
+/* FOOTER */
+.end {
+    width: 100%;
+    height: 88px;
+    background-color: #323232;
+    color: #ffffff;
+    text-align: center;
+    /* padding-top: 32px; */
+   
+}
+.end p {
+    margin: 0;
+    font-size: 16px; 
+    line-height: 88px;
+}
+.end a {
+    color: #46bfa9;
 }
