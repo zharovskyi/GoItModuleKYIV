@@ -60,11 +60,13 @@ header {
     line-height: 11px;
     color:#0f0101;
     padding-top: 8px;
+    border: 1px solid transparent; 
     
 }
 
-.menu-item:hover > a {
+.menu-item a:hover {
     color: #4ec6ab;
+    background-color: transparent;
     border-top: 1px solid #4ec6ab;
 }
 /* Slider */
@@ -112,18 +114,16 @@ ul {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-  
+    background-repeat: no-repeat;
+    background-position:  center; 
 }
-.btn img {
-    display: inline-block;
-}
-
 .prev {
     left: 0;
-    
+    background-image: url("../img/prev.png"); 
 }
 .next {
-    right: 0;
+    background-image: url("../img/next1.png");
+    right: 0;  
 }
 /* HEdaline__second */
 .section__second {
@@ -197,6 +197,7 @@ ul {
 }
 .foto__item:hover > p {
     background: #4ec6ab;
+    cursor: pointer;
 }
  .foto__item:hover > .describe__price {
     background-color: #7fd9c7;
@@ -251,7 +252,7 @@ ul {
 .icons__btn3:hover, .icons__lg:hover {
     background-color: #1abc9c;
     cursor: pointer;
-    border:none
+    border: 1px solid transparent;
 } 
 }
 button {
