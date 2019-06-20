@@ -3,11 +3,15 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color:green;
+    margin: 0;
+    
 }
 *::after, 
 *::before {
     box-sizing: inherit;
+}
+:root{
+    --default-color:#333333;
 }
 img {
     display: block;
@@ -18,4 +22,118 @@ img {
     display: table;
     content: "";
     clear: both;
+}
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    
+}
+li {
+    list-style: none;
+}
+/* MENU */
+.navigation :first-child{
+    display: block;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    margin-bottom: 80px;
+}
+.nav__page {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 490px;
+    
+
+    
+}
+.nav__item a {
+    
+    color: #95e1d3;
+}
+.work {
+    font-family: ‘Kaushan Script’, cursive;
+    font-size: 24px;
+    line-height:29px;
+    font-style: italic;
+}
+.headline__one {
+    font-size: 30px;
+    color: var(--default-color);
+    text-transform: uppercase;
+    line-height: 36px;
+    font-weight: bold;
+}
+.headline__one::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(243, 129, 129);
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 67px;
+    
+      
+}
+.headline__one, .work{
+    text-align: center;
+}
+/* Section text */
+.first__item__text{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.icon {
+    width: 300px;
+    margin-bottom: 20px;
+
+    
+}
+.icon__alarm,.icon__web,.icon__creativ,.icon__ceo,.icon__css,.icon__digital {
+    position: relative;
+    padding-left: 2rem;
+}
+.icon__alarm::before,.icon__web::before,.icon__creativ::before,.icon__ceo::before,.icon__css::before,.icon__digital::before,
+.icon__alarm::before {
+    display: inline-block;
+    content: url("/img/ALARM.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.text__headline {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color:#333333;
+}
+.icon p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 24px;
+    color: #999999;
+}
+.text__headline,.icon p {
+
 }
