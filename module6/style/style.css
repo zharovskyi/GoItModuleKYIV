@@ -266,17 +266,17 @@ TEAM
       
 }
 .icons__btn1 {
-    background-image: url("/img/facebook.png");
+    background-image: url("../img/facebook.png");
 }
 .icons__btn2 {
-    background-image: url("/img/twitter.png");
+    background-image: url("../img/twitter.png");
     
 }
 .icons__btn3 {
-    background-image: url("/img/pinterest.png");
+    background-image: url("../img/pinterest.png");
 }
 .icons__btn4 {
-    background-image: url("/img/instagram.png");
+    background-image: url("../img/instagram.png");
 }
 button{
     margin: 0;
