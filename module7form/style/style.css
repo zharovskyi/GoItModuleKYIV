@@ -1,0 +1,254 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab';
+}
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v13-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-slab-300 - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-slab-v8-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Slab Light'), local('RobotoSlab-Light'),
+         url('../fonts/roboto-slab-v8-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-slab-v8-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-slab-v8-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-slab-v8-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-slab-v8-latin-300.svg#RobotoSlab') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-slab-regular - latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-slab-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto-slab-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-slab-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-slab-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-slab-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-slab-v8-latin-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-slab-700 - latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-slab-v8-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
+         url('../fonts/roboto-slab-v8-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-slab-v8-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-slab-v8-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-slab-v8-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-slab-v8-latin-700.svg#RobotoSlab') format('svg'); /* Legacy iOS */
+  }
+*::after, 
+*::before {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+h2, h3, p{
+    margin: 0;
+    text-align: center;
+}
+h2,h3 {
+    font-family: "Montserrat";
+}
+p{
+    font-family: 'Roboto Slab';  
+}
+/* Navigation */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 37px;
+}
+.navigation {
+    margin: 0;
+    width: 485px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head a {
+    display: block;
+}
+.navigation__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 41px;
+    color: #3f3f3f;
+}
+.navigation__link:hover {
+    color:#ffeaa1;
+    cursor: pointer;
+}
+/* 
+services
+ */
+ .services {
+    padding-top: 98px;
+    padding-bottom: 120px;
+ }
+ .services__headline,.contacts__headline{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    line-height: 75px;
+    color: #222222;
+     
+ }
+ .services__text{
+     font-size: 16px;
+     line-height: 20px;
+     color:#777777;
+     text-align: center;
+     margin-bottom: 73px;
+ }
+ .article{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+ .article__text{
+    font-size: 16px;
+    line-height: 20px;
+    color:#777777;
+ }
+
+ .article__headline{
+     text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 75px;
+    margin-top: 80px;
+ }
+.icon__commerce, 
+.icon__web,
+.icon__security{
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+    
+}
+ .icon__commerce{ 
+     background-image: url("../img/Icon-Basket.png");   
+ }
+ .icon__web{
+     background-image: url("../img/Icon-Laptop.png");
+ }
+.icon__security{
+    background-image: url("../img/Icon-Locked.png");
+}
+
+
+
+/* CONTACTS */
+.container2 {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+.contacts{
+    background:#222222;
+    background-image: url("../img/Map\ Image.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+.contacts__headline{
+    color:#ffffff;
+}
+.article__text{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.contacts__form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.form__name{
+    display: flex;
+    flex-direction: column;
+    height: 213px;
+    justify-content: space-between;
+}
+.form__name input {
+    width: 435px;
+    height: 55px;
+    border:none;
+    padding: 0;
+    padding-left: 20px;
+}
+.form__comment textarea {
+    width: 435px;
+    height: 193px;
+    border:none;
+    padding: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    resize: none;
+}
+.form__button {
+    display: flex;
+    padding-top: 30px;
+}
+.form__button button{
+    width: 240px;
+    height: 70px;
+}
+.send {
+    background-color: #fed136;
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: uppercase;
+    border:none;
+}
+::placeholder {
+    font-family: "Montserat";
+    font-weight: bold;
+}
+input[type="email"]:invalid,
+input[name="name"]:invalid {
+    background: #f76d6d;
+  }
+  
+  input[type="email"]:valid,
+input[name="name"]:valid {
+    background: #9bf76d;
+  }
