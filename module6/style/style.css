@@ -77,6 +77,7 @@ p, h2 {
     font-size: 24px;
     line-height:29px;
     font-style: italic;
+    margin-bottom: 20px;
 }
 .headline__one {
     font-size: 30px;
@@ -84,7 +85,7 @@ p, h2 {
     text-transform: uppercase;
     line-height: 36px;
     font-weight: bold;
-    margin-top: 20px;
+    
     margin-bottom: 67px;
 }
 .headline__one::after{
