@@ -80,10 +80,10 @@ h2, h3, p{
     text-align: center;
 }
 h2,h3 {
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
 }
 p{
-    font-family: 'Roboto Slab';  
+    font-family: 'Roboto Slab',sans-serif;  
 }
 /* Navigation */
 .head {
@@ -138,8 +138,9 @@ services
  }
  .article{
     margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
 }
@@ -159,6 +160,7 @@ services
 .icon__commerce, 
 .icon__web,
 .icon__security{
+    width: 290px;
     background-repeat: no-repeat;
     background-position: center top;
     
@@ -193,14 +195,17 @@ services
 .contacts__headline{
     color:#ffffff;
 }
-.article__text{
+.article__text2{
+    font-size: 16px;
+    line-height: 20px;
+    color:#777777;
     text-align: center;
     margin-bottom: 75px;
 }
 .contacts__form{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .form__name{
     display: flex;
@@ -227,6 +232,7 @@ services
 .form__button {
     display: flex;
     padding-top: 30px;
+    margin: 0 auto;
 }
 .form__button button{
     width: 240px;
