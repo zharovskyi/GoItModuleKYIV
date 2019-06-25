@@ -237,6 +237,7 @@ services
     color:#ffffff;
     text-transform: uppercase;
     border:none;
+    cursor: pointer;
 }
 ::placeholder {
     font-family: "Montserat";
