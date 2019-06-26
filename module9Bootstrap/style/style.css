@@ -57,7 +57,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-.container {
+.container__one {
     width: 100%;
     max-width: 942px;
     margin: 0 auto;
@@ -94,8 +94,39 @@ header
     background-position: center;
     background-size: cover;
 }
+.nav__enter {
+    /* width: 90px;
+    height: 36px;
+    line-height: 30px;
+    text-align: center; */
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+.nav__enter:hover{
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+}
 
-.icon__one::before,
+
+
+
+
+
+
+
+/* @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+/* .icon__one::before,
 .icon__two::before,
 .icon__three::before,
 .icon__four::before {
@@ -117,5 +148,5 @@ header
 }
 .icon__four::before{
     content: url("../img/icon4.png");
-}
+} */
 
