@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat a;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+
+font-family: "Kaushan Script p";
+font-family: Roboto p sec 2;
+
+}
+*::after, 
+*::before {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+/* background-color: #fce38a;
+background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%); */
