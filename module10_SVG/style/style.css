@@ -150,6 +150,7 @@ Section text
     text-align: center;
 }
 .about__headline {
+    margin: 0;
     color: #333333;
     font-family: Montserrat;
     font-size: 30px;
