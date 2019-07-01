@@ -1,14 +1,14 @@
 {
   "name": "module11sass",
   "version": "1.0.0",
-  "description": "first attempt",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "scss: build":"node-sass --watch src/scss/style.scss -o src/style",
-    "scss: watch":"node-sass --watch src/scss/style.scss -o src/style",
-    "build": "npm run scss:build && npm run scss:watch" 
+    "scss:build": "node-sass src/scss/style.scss -o src/css",
+    "scss:watch": "node-sass --watch src/scss/style.scss -o src/css",
+    "build": "npm run scss:build && npm run scss:watch"
   },
-  "author": "oleh zharovskyi",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.12.0"
