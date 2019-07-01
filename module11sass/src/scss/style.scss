@@ -62,18 +62,25 @@ a{
 }
 .head__nav {
     margin-bottom: 164px;
+    .head__list{
+        width: 620px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        .head__link {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: $text-white-color;
+            border-bottom: 2px solid transparent;
+            &:hover {
+                color: $color-yellow;
+                border-bottom: 2px solid;
+            }
+        }
+    }
 }
-.head__list{
-    width: 620px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.head__link {
-    font-size: 14px;
-    text-transform: uppercase;
-    color: $text-white-color;
-}
+
+
 .head__nav svg{
     display: block;
     width: 20px;
@@ -194,6 +201,7 @@ Section text
     height: 31px;
     top: 0;
     left: 0;
+    fill: #95e1d3;
 }
 /* 
 ABOUT TEAM
@@ -308,18 +316,20 @@ ABOUT TEAM
 .icons__btn3:hover, .icons__btn4:hover {
     background-color: $color-pink;
     cursor: pointer;
-    fill: $text-white-color;
     border: 1px solid transparent;
+    
 } 
-.icons__btn1:hover .icons__svg {
+.icons__btn1:hover .icons__svg, .icons__btn2:hover .icons__svg, 
+.icons__btn3:hover .icons__svg, .icons__btn4:hover .icons__svg{
     fill: $text-white-color;
-}
+} 
+
 button {
     padding: 0;
     outline: none;
 }
 .team__memeber:hover .item-icons { 
-    opacity: 1  ;
+    opacity: 1;
     cursor: pointer;
     -webkit-transform: translate(-10px, -10px);
         -ms-transform: translate(-10px, -10px);

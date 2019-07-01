@@ -49,17 +49,19 @@ a {
 
 .head__nav {
   margin-bottom: 164px; }
-
-.head__list {
-  width: 620px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end; }
-
-.head__link {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #ffffff; }
+  .head__nav .head__list {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+    .head__nav .head__list .head__link {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #ffffff;
+      border-bottom: 2px solid transparent; }
+      .head__nav .head__list .head__link:hover {
+        color: #fce38a;
+        border-bottom: 2px solid; }
 
 .head__nav svg {
   display: block;
@@ -175,7 +177,8 @@ Section text
   width: 32px;
   height: 31px;
   top: 0;
-  left: 0; }
+  left: 0;
+  fill: #95e1d3; }
 
 /* 
 ABOUT TEAM
@@ -281,10 +284,10 @@ ABOUT TEAM
 .icons__btn3:hover, .icons__btn4:hover {
   background-color: #f38181;
   cursor: pointer;
-  fill: #ffffff;
   border: 1px solid transparent; }
 
-.icons__btn1:hover .icons__svg {
+.icons__btn1:hover .icons__svg, .icons__btn2:hover .icons__svg,
+.icons__btn3:hover .icons__svg, .icons__btn4:hover .icons__svg {
   fill: #ffffff; }
 
 button {
