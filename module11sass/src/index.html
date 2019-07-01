@@ -6,14 +6,211 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="img/ukraine-flag_6852.ico">
-    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,500,700|Roboto:300,400,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Module10</title>
 </head>
-<!-- "scss:build": "node-sass src/scss/style.scss -o src/style",
-    "scss:watch": "node-sass --watch src/scss/style.scss -o src/style",
-    "build": "npm run scss:build && npm run scss:watch"  -->
 <body>
-    
+    <header class="head">
+        <div class="head__gr">
+            <div class="container head__container">
+                <a href="#" class="head__logo">
+                    <img src="/src/img/MoGo.png" alt="">
+                </a>
+                <nav class="head__nav">
+                    <ul class="head__list">
+                        <li><a href="" class="head__link">about</a></li>
+                        <li><a href="" class="head__link">services</a></li>
+                        <li><a href="" class="head__link">work</a></li>
+                        <li><a href="" class="head__link">blog</a></li>
+                        <li><a href="" class="head__link">contact</a></li>
+                        <li><a href="" class="head__link">
+                                <svg>
+                                    <use href="img/icon/symbol-defs.svg#icon-MAGNIFYING_GLASS"></use>
+                                </svg>
+                            </a></li>
+                        <li><a href="" class="head__link">
+                                <svg>
+                                    <use href="img/icon/symbol-defs.svg#icon-SHOPPING_CART"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </nav>
+                <p class="head__headline__one">creative template</p>
+                <h1 class="head__headline__two">welcome to mogo</h1>
+                <button class="head__button">learn more</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about container">
+            <p class="about__work">We work with</p>
+            <h2 class="about__headline">amazing services</h2>
+            <ul class="about__item">
+                <li class="about__list">
+                    <svg class="icons__svg about__svg">
+                        <use href="img/icon/symbol-defs.svg#icon-ALARM"></use>
+                    </svg>
+                    <h3 class="about__headline--item">photography</h3>
+                    <p class="about__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                </li>
+                <li class="about__list">
+                    <svg class="about__svg">
+                        <use href="img/icon/symbol-defs.svg#icon-OK"></use>
+                    </svg>
+                    <h3 class="about__headline--item">web design</h3>
+                    <p class="about__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                </li>
+                <li class="about__list">
+                    <svg class="about__svg">
+                        <use href="img/icon/symbol-defs.svg#icon-BOOK_2"></use>
+                    </svg>
+                    <h3 class="about__headline--item">creativity</h3>
+                    <p class="about__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                </li>
+                <li class="about__list">
+                    <svg class="about__svg">
+                        <use href="img/icon/symbol-defs.svg#icon-HOME"></use>
+                    </svg>
+                    <h3 class="about__headline--item">ceo</h3>
+                    <p class="about__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                </li>
+                <li class="about__list">
+                    <svg class="about__svg">
+                        <use href="img/icon/symbol-defs.svg#icon-IMAGE"></use>
+                    </svg>
+                    <h3 class="about__headline--item">css/html</h3>
+                    <p class="about__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                </li>
+                <li class="about__list">
+                    <svg class="about__svg">
+                        <use href="img/icon/symbol-defs.svg#icon-LINE_GRAPH"></use>
+                    </svg>
+                    <h3 class="about__headline--item">digital</h3>
+                    <p class="about__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="about__team container">
+            <p class="about__work">Who we are</p>
+            <h2 class="about__headline">meet our team</h2>
+            <p class="about__info lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <ul class="team">
+                <li class="team__memeber">
+                    <img class="member__img" srcset="img/foto1.jpg 380w, img/foto1@2x.png 760w" sizes="380px"
+                        src="img/foto1.jpg" alt="foto1">
+                    <p class="team__title about__headline--item">matthew dex</p>
+                    <p class="about__info team__info">Graphic Design</p>
+                    <div class="item-icons">
+                        <div class="icons">
+                            <a class="icons__btn1">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn2">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn3">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-pinterest"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn4">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="team__memeber">
+                    <img class="member__img" srcset="img/foto2.jpg 380w, img/foto2@2x.png 760w" sizes="380px"
+                        src="img/foto1.jpg" alt="foto2">
+                    <p class="team__title about__headline--item">christopher campbell</p>
+                    <p class="about__info team__info">Branding/UX design</p>
+                    <div class="item-icons">
+                        <div class="icons">
+                            <a class="icons__btn1">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn2">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn3">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-pinterest"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn4">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="team__memeber">
+                    <img class="member__img" srcset="img/foto3.jpg 380w, img/foto3@2x.png 760w" sizes="380px"
+                        src="img/foto3.jpg" alt="foto3">
+                    <p class="team__title about__headline--item">michel fertic</p>
+                    <p class="about__info team__info">Developer</p>
+                    <div class="item-icons">
+                        <div class="icons">
+                            <a class="icons__btn1">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn2">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn3">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-pinterest"></use>
+                                </svg>
+                            </a>
+                            <a class="icons__btn4">
+                                <svg class="icons__svg">
+                                    <use href="img/icon/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+    <footer class="end">
+        <div class="container end__second">
+            <div class="end__text">&#9786;2016 MoGo free PSD template <a href="" class="red">Laaqiq</a>
+            </div>
+            <form class="frm" action="/adasd.com" method="get">
+                <input type="text" required placeholder="Your email" name="fname">
+                <input class="btn__input" type="submit" value="Suescribe">
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>
