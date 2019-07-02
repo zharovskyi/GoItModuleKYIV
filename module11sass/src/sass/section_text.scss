@@ -1,0 +1,80 @@
+/* 
+Section text 
+*/
+.about{
+    padding-top: 46px;
+    padding-bottom: 92px;
+ }
+ .about__work {
+    font-family: $font-Kaushan;
+    font-size: 24px;
+    line-height:29px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    text-align: center;
+ }
+ .about__headline {
+    margin: 0;
+    color: $text-dark-color;
+    font-family: $font-Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 66px;
+ }
+ .about__headline::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $color-pink;
+    margin:0 auto;
+    margin-top: 42px;
+    
+ }
+ /* list item   */
+ .about__item{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    
+ 
+ }
+ .about__headline--item {
+    margin: 0;
+    color: $text-dark-color;
+    font-family: $font-Montserrat;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+ }
+ .about__info  {
+    margin: 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: $text-grey-color;
+    text-transform: none;
+ }
+ .about__list:nth-last-of-type(-n+3) {
+    margin-bottom: 0;
+ }
+ .about__list {
+    width: 320px;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 99px;
+ }
+ .about__svg {
+    position: absolute;
+    width: 32px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    fill: #95e1d3;
+ }

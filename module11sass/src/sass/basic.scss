@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+ }
+ body {
+    margin: 0;
+    padding: 0;
+ 
+ }
+ *::after, 
+ *::before {
+    box-sizing: inherit;
+ }
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+ ul,h1,p {
+    margin: 0;
+    padding: 0;
+ }
+ li{
+    list-style: none;
+ }
+ .container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+ }
+ 
+ a{
+    font-family: $font-Montserrat;
+    display: block;
+    text-decoration: none;
+ }

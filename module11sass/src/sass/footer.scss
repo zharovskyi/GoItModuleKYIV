@@ -1,0 +1,63 @@
+.end {
+    border-top: 1px solid $text-grey-color;
+    height: 53px;
+    padding-top: 10px;
+    
+ }
+ .end__second {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+ 
+ }
+ .end__text{
+    font-size: 14px;
+    line-height: 17px;
+    color: $text-dark-color;
+    text-transform: none;
+ }
+ .red{
+    display: inline;
+    color: $color-pink;
+ }
+ .frm{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 230px;
+    height: 40px;
+ }
+ .btn__input{
+    background-color: #95e1d3;
+    text-transform: uppercase;
+    color: $text-white-color;
+    font-size: 14px;
+    border:none;
+    cursor: pointer;
+ }
+ ::-webkit-input-placeholder{
+    font-family: $font-Kaushan;
+    padding-left: 12px;
+ }
+ :-ms-input-placeholder{
+    font-family: $font-Kaushan;
+    padding-left: 12px;
+ }
+ ::-ms-input-placeholder{
+    font-family: $font-Kaushan;
+    padding-left: 12px;
+ }
+ ::placeholder{
+    font-family: $font-Kaushan;
+    padding-left: 12px;
+ } 

@@ -1,0 +1,132 @@
+/* 
+ABOUT TEAM
+*/
+.lorem{
+    width: 954px;
+    text-align: center;
+    margin: 0 auto;
+ }
+ .team {
+    padding-top: 52px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .team__title{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    color: $text-dark-color;
+    margin-top: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+ 
+ }
+ .team__info{
+    text-align: center;
+ }
+ .team__memeber{
+    position: relative;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+    
+ }
+ 
+ .team__memeber img {
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+ }
+ 
+ .team__memeber:hover img {
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+   
+ }
+ /*
+ HOVER BLOCK
+ */
+ .item-icons {
+    margin: 0 auto;
+    padding: 0;
+    width: 380px;
+    height: 470px;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9)) );
+    background-image: -webkit-linear-gradient( top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100% );
+    background-image: -o-linear-gradient( top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100% );
+    background-image: linear-gradient( to bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100% );
+    opacity: 0;
+    position: absolute;
+    -webkit-box-shadow: 10px 10px 0 #95e1d3;
+            box-shadow: 10px 10px 0 #95e1d3;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;   
+ }
+ 
+ .item-icons {
+    position:absolute;
+    top:0;  
+ }
+ .icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 227px;
+    
+ }
+ .icons__btn1, .icons__btn2, .icons__btn3, .icons__btn4 {
+    width: 56px;
+    height: 56px;
+    background-color: $color-yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+     
+ }
+ .icons__btn1 .icons__svg{
+    fill: $color-pink;
+ }
+ .icons__svg {
+    display: inline-block;
+    width: 26px;
+    height: 22px;
+    fill: $color-pink;
+ }
+ .icons__btn1:hover, .icons__btn2:hover, 
+ .icons__btn3:hover, .icons__btn4:hover {
+    background-color: $color-pink;
+    cursor: pointer;
+    border: 1px solid transparent;
+    
+ } 
+ .icons__btn1:hover .icons__svg, .icons__btn2:hover .icons__svg, 
+ .icons__btn3:hover .icons__svg, .icons__btn4:hover .icons__svg{
+    fill: $text-white-color;
+ } 
+ 
+ button {
+    padding: 0;
+    outline: none;
+ }
+ .team__memeber:hover .item-icons { 
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+ } 
